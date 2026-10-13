@@ -26,13 +26,6 @@ AMCL và autonomous navigation bằng Nav2 trong môi trường depot.
 - `maps/map.pgm`: ảnh bản đồ.
 - `README.md`: hướng dẫn cài đặt và chạy.
 
-Sử dụng simulator, mô hình robot và controller từ các package có sẵn.
-Hai launch tự viết chỉ đóng vai trò gọi lại launch của TurtleBot 4
-với đường dẫn cấu hình và bản đồ nằm trong repository.
-
-Không cần tạo workspace hoặc chạy colcon build.
-ROS 2 hỗ trợ chạy trực tiếp launch file bằng đường dẫn.
-
 ## 3. Cài đặt
 
 Cài ROS 2 Humble Desktop theo tài liệu chính thức:
@@ -61,12 +54,6 @@ Cập nhật TF2 và kiểm tra phiên bản:
 sudo apt install --only-upgrade ros-humble-tf2 ros-humble-tf2-ros
 apt-cache policy ros-humble-tf2 ros-humble-tf2-ros
 ```
-
-Phiên thực nghiệm đã cập nhật TF2 từ 0.25.23 lên 0.25.24.
-Bản 0.25.24 có sửa lỗi deadlock trong xử lý TF.
-
-Sau khi cập nhật, dừng và mở lại các tiến trình ROS/Gazebo để chúng
-sử dụng thư viện mới.
 
 ## 4. Chuẩn bị terminal
 

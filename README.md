@@ -17,8 +17,6 @@ AMCL và autonomous navigation bằng Nav2 trong môi trường depot.
 - TurtleBot 4 Simulator.
 - SLAM Toolbox và Nav2.
 
-Máy thực nghiệm: Dell Precision 7560, NVIDIA RTX A2000 Laptop 4 GB.
-
 ## 2. Cấu trúc repository
 
 - `launch/mapping.launch.py`: gọi launch SLAM có sẵn, dùng cấu hình của bài.
